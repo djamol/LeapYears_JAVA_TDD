@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LeapYearAmol" project="LeapYearAmol" tests="10" started="10" failures="0" errors="0" ignored="0">
+  <testsuite name="test.java.LeapYearAmolTest" time="0.001">
+    <testcase name="Test_2017" classname="test.java.LeapYearAmolTest" time="0.001"/>
+    <testcase name="Test_2018" classname="test.java.LeapYearAmolTest" time="0.0"/>
+    <testcase name="Test_2019" classname="test.java.LeapYearAmolTest" time="0.0"/>
+    <testcase name="Test_2016" classname="test.java.LeapYearAmolTest" time="0.0"/>
+    <testcase name="Test_1800" classname="test.java.LeapYearAmolTest" time="0.0"/>
+    <testcase name="Test_1900" classname="test.java.LeapYearAmolTest" time="0.0"/>
+    <testcase name="Test_1700" classname="test.java.LeapYearAmolTest" time="0.0"/>
+    <testcase name="Test_2000" classname="test.java.LeapYearAmolTest" time="0.0"/>
+    <testcase name="Test_2008" classname="test.java.LeapYearAmolTest" time="0.0"/>
+    <testcase name="Test_2012" classname="test.java.LeapYearAmolTest" time="0.0"/>
+  </testsuite>
+</testrun>

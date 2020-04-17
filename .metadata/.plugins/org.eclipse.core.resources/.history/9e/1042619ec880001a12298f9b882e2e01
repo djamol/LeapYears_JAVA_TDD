@@ -1,0 +1,22 @@
+package test.java;
+
+import static org.junit.Assert.*;
+
+import main.java.LeapYear;
+
+import org.junit.Test;
+
+public class LeapYearAmolTest {
+		LeapYear leapyear = new LeapYear();
+	@Test
+	public void FirstTest() {
+	boolean output=	leapyear.Check(2000);
+	assertEquals(true,output);
+	}
+	@Test
+	public void FirstTest2() {
+	boolean output=	leapyear.Check(2000);
+	assertEquals(false,output);
+	}
+
+}

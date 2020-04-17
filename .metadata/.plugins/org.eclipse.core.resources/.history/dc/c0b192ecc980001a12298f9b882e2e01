@@ -1,0 +1,31 @@
+package main.java;
+
+public class LeapYear {
+
+	public boolean Check(int year){
+		 boolean leap = false;
+
+		 	/*
+		 	 * exactly divisible by 4 except for century years
+		 	 * && divisible by 100
+		 	 */
+		    
+	        if(year % 4 == 0 && year % 100 == 0)
+	        {      
+	        	    //divisible by 400
+	                if ( year % 400 == 0)
+	                    leap = true;
+	                else
+	                    leap = false;
+	        }
+	        else
+	            leap = false;
+
+	        if(leap)
+	            System.out.println(year + " is a leap year.");
+	        else
+	            System.out.println(year + " is not a leap year.");
+	    
+		return leap;
+	}
+}
